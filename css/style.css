@@ -1,0 +1,2152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-1{
+    width: 100%;
+    height: 700px;
+}
+
+.header{
+    width: 100%;
+    height: 150px;
+    background-color: #303030;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    margin: 30px 0px 0px 30px;
+}
+
+.nav{
+    width: 100%;
+    height: 150px;
+}
+
+.nav ul{
+    margin-top: 50px;
+    padding: 0;
+    float: right;
+    margin-right: 100px;
+}
+
+.nav ul li{
+    display: inline-block;
+}
+
+.nav ul li a{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.search{
+    margin: 50px 70px 0px 0px;
+}
+
+.line{
+    width: 100%;
+    height: 50px;
+    background-color: #e8631c;
+}
+
+.banner{
+    width: 100%;
+    height: 800px;
+    background-image: url('../images/banner.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.text h2{
+    font-size: 80px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: left;
+    padding: 150px 0px 0px 50px;
+}
+
+.text p{
+    font-size: 25px;
+    color: white;
+    padding: 0px 0px 0px 50px;
+}
+
+.btn{
+    margin: 50px 0px 0px 50px;
+    width: 200px;
+    height: 60px;
+    background-color: #e8631c;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.container-2{
+    width: 100%;
+    height: 800px;
+    background-color: #e8631c;
+}
+
+.container-2 h2{
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.container-2 p{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box1{
+    width: 374px;
+    height: 485px;
+    background-color: #303030;
+}
+
+.box1 h2{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.box1 p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.box2{
+    width: 374px;
+    height: 485px;
+    background-color: #303030;
+}
+
+.box2 h2{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.box2 p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.box3{
+    width: 374px;
+    height: 485px;
+    background-color: #303030;
+}
+
+.box3 h2{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.box3 p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.container-3{
+    width: 100%;
+    height: 800px;
+    background-color: #303030;
+}
+
+.container-3 h2{
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.container-3 p{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box4{
+    width: 373px;
+    height: 485px;
+    background-color: #e8631c;
+    border-radius: 10px;
+}
+
+.box4 h2{
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.box4 p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.click{
+    width: 280px;
+    height: 50px;
+    background-color: #303030;
+    color: white;
+    border: none;
+    margin: 40px 0px 0px 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box4 img{
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.box5{
+    width: 373px;
+    height: 485px;
+    background-color: #e8631c;
+    border-radius: 10px;
+}
+
+.box5 h2{
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.box5 p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.box5 img{
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.box6{
+    width: 373px;
+    height: 485px;
+    background-color: #e8631c;
+    border-radius: 10px;
+}
+
+.box6 h2{
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.box6 p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.box6 img{
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.container-4{
+    width: 100%;
+    height: 950px;
+    background-color: #e8631c;
+}
+
+.parent{
+    display: flex;
+}
+
+.left{
+    width: 810px;
+    height: 953px;
+    background-image: url('../images/man-stand.png');
+    background-size: cover;
+}
+
+.right{
+    width: 40%;
+    height: 953px;
+}
+
+.right h2{
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 500px;
+}
+
+.right p{
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.sub{
+    width: 300px;
+    height: 60px;
+    background-color: #303030;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin: 30px 0px 0px 50px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.container-5{
+    width: 100%;
+    height: 987px;
+    background-color: #e8631c;
+}
+
+.father{
+    display: flex;
+}
+
+.left1{
+    width: 60%;
+    height: 953px;
+}
+
+.left1 h2{
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 500px;
+}
+
+.left1 p{
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 200px;
+}
+
+.sub1{
+    width: 300px;
+    height: 60px;
+    background-color: #303030;
+    border: none;
+    color: white;
+    margin: 30px 0px 0px 200px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.right1{
+    position: relative;
+    top: 3px;
+    left: 10px;
+}
+
+.container-6{
+    width: 100%;
+    height: 500px;
+    background-color: #303030;
+}
+
+.para{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.para h2{
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+.para p{
+    font-size: 30px;
+    color: white;
+    padding-top: 30px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+.club{
+    color: white;
+}
+
+.club h1{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.club p{
+    font-size: 30px;
+}
+
+.active{
+    color: white;
+}
+
+.active h1{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.active p{
+    font-size: 30px;
+}
+
+.comunity{
+    color: white;
+}
+
+.comunity h1{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.comunity p{
+    font-size: 30px;
+}
+
+.container-7{
+    width: 100%;
+    height: 1000px;
+}
+
+.bg{
+    width: 100%;
+    height: 1000px;
+    background-image: url('../images/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg p{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 400px;
+}
+
+.bg h1{
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 450px;
+}
+
+.container-8{
+    width: 100%;
+    height: 500px;
+    background-color: #e8631c;
+    position: relative;
+}
+
+.write{
+    color: white;
+}
+
+.write h1{
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.write p{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#fname{
+    width: 30%;
+    height: 50px;
+    margin: 50px 0px 0px 0px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 450px;
+}
+
+.button-subscribe{
+    width: 150px;
+    height: 50px;
+    background-color:#303030;
+    color: white;
+    padding: 25px;
+    border: none;
+    position: absolute;
+    right: 613px;
+    top: 268px;
+    font-weight: bold;
+}
+
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: #303030;
+}
+
+table {
+    font-family: arial, sans-serif;
+    width: 100%;
+    position: relative;
+    top: 100px;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+    color: white;
+}
+
+td img{
+    margin-top: 30px;
+}
+
+input[type="email"]::placeholder {
+                 
+    /* Firefox, Chrome, Opera */
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+@media screen and (max-width:992px){
+
+    .container-1{
+        width: 100%;
+        height: 672px;
+    }
+
+    .container-2{
+        width: 100%;
+        height: 750px;
+        background-color: #e8631c;
+    }
+    
+    .card{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .box1{
+        width: 280px;
+        height: 485px;
+        background-color: #303030;
+    }
+
+    .box1 img{
+        width: 250xpx;
+        height: 50%;
+    }
+    
+    .box1 h2{
+        font-size: 25px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+    }
+    
+    .box1 p{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    
+    .box2{
+        width: 280px;
+        height: 485px;
+        background-color: #303030;
+    }
+
+    .box2 img{
+        width: 250xpx;
+        height: 50%;
+    }
+    
+    .box2 h2{
+        font-size: 25px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+    }
+    
+    .box2 p{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    
+    .box3{
+        width: 280px;
+        height: 485px;
+        background-color: #303030;
+    }
+
+    .box3 img{
+        width: 250xpx;
+        height: 50%;
+    }
+    
+    .box3 h2{
+        font-size: 25px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+    }
+    
+    .box3 p{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+
+    .container-3{
+        width: 100%;
+        height: 750px;
+        background-color: #303030;
+    }
+
+    .card2{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .box4{
+        width: 280px;
+        height: 485px;
+        background-color: #e8631c;
+        border-radius: 10px;
+    }
+    
+    .box4 h2{
+        font-size: 50px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .box4 p{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    
+    .click{
+        width: 210px;
+        height: 50px;
+        background-color: #303030;
+        color: white;
+        border: none;
+        margin: 40px 0px 0px 33px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .box4 img{
+        margin-left: 80px;
+        margin-top: 30px;
+    }
+    
+    .box5{
+        width: 280px;
+        height: 485px;
+        background-color: #e8631c;
+        border-radius: 10px;
+    }
+    
+    .box5 h2{
+        font-size: 50px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .box5 p{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    
+    .box5 img{
+        margin-left: 80px;
+        margin-top: 30px;
+    }
+    
+    .box6{
+        width: 280px;
+        height: 485px;
+        background-color: #e8631c;
+        border-radius: 10px;
+    }
+    
+    .box6 h2{
+        font-size: 50px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .box6 p{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    
+    .box6 img{
+        margin-left: 80px;
+        margin-top: 30px;
+    }
+
+    .container-4{
+        width: 100%;
+        height: 950px;
+        background-color: #e8631c;
+    }
+    
+    .parent{
+        display: flex;
+    }
+    
+    .left{
+        width: 500px;
+        height: 690px;
+        background-image: url('../images/man-stand.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .right{
+        width: 40%;
+        height: 953px;
+    }
+    
+    .right h2{
+        font-size: 40px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 250px;
+    }
+    
+    .right p{
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 8px;
+    }
+    
+    .sub{
+        width: 300px;
+        height: 60px;
+        background-color: #303030;
+        color: white;
+        font-size: 20px;
+        border: none;
+        margin: 30px 0px 0px 50px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+    }
+
+    .container-5{
+        width: 100%;
+        height: 425px;
+        background-color: #e8631c;
+    }
+    
+    .father{
+        display: flex;
+    }
+    
+    .left1{
+        width: 40%;
+        height: 953px;
+    }
+    
+    .left1 h2{
+        font-size: 40px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 0px;
+    }
+    
+    .left1 p{
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 18px;
+    }
+    
+    .sub1{
+        width: 300px;
+        height: 60px;
+        background-color: #303030;
+        border: none;
+        color: white;
+        margin: 30px 0px 0px 60px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .right1{
+        position: relative;
+        top: -265px;
+        left: 103px;
+    }
+
+    .right1 img{
+        width: 492px;
+        height: 690px;
+    }
+
+    .container-6{
+        width: 100%;
+        height: 365px;
+        background-color: #303030;
+    }
+    
+    .para{
+        text-align: center;
+        padding-top: 40px;
+    }
+    
+    .para h2{
+        font-size: 40px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+    }
+    
+    .para p{
+        font-size: 25px;
+        color: white;
+        padding-top: 20px;
+    }
+    
+    .flex{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 60px;
+    }
+    
+    .club{
+        color: white;
+    }
+    
+    .club h1{
+        font-size: 35px;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .club p{
+        font-size: 25px;
+    }
+    
+    .active{
+        color: white;
+    }
+    
+    .active h1{
+        font-size: 35px;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .active p{
+        font-size: 25px;
+    }
+    
+    .comunity{
+        color: white;
+    }
+    
+    .comunity h1{
+        font-size: 35px;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .comunity p{
+        font-size: 25px;
+    }
+
+    .container-7{
+        width: 100%;
+        height: 670px;
+    }
+    
+    .bg{
+        width: 100%;
+        height: 670px;
+        background-image: url('../images/bg.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .bg p{
+        font-size: 28px;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 335px;
+    }
+    
+    .bg h1{
+        font-size: 50px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 370px;
+    }
+
+    .container-8{
+        width: 100%;
+        height: 360px;
+        background-color: #e8631c;
+        position: relative;
+    }
+    
+    .write{
+        color: white;
+    }
+    
+    .write h1{
+        font-size: 40px;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        padding-top: 60px;
+    }
+    
+    .write p{
+        font-size: 25px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #fname{
+        width: 30%;
+        height: 50px;
+        margin: 50px 0px 0px 0px;
+        border: 1px solid #ccc;
+        font-size: 20px;
+        font-family: 'Oswald', sans-serif;
+        margin-left: 300px;
+    }
+    
+    .button-subscribe{
+        width: 150px;
+        height: 50px;
+        background-color:#303030;
+        color: white;
+        padding: 25px;
+        border: none;
+        position: absolute;
+        right: 350px;
+        top: 234px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:768px){
+
+
+    .header{
+        width: 100%;
+        height: 100px;
+        background-color: #303030;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .container-1{
+        width: 100%;
+        height: 515px;
+    }
+
+    .logo{
+        margin: 8px 0px 0px 30px;
+    }
+    
+    .nav{
+        width: 100%;
+        height: 150px;
+    }
+    
+    .nav ul{
+        margin-top: 50px;
+        padding: 0;
+        float: right;
+        margin-right: 40px;
+    }
+    
+    .nav ul li{
+        display: inline-block;
+    }
+    
+    .nav ul li a{
+        font-size: 15px;
+        font-family: 'Lato', sans-serif;
+        color: white;
+        padding-left: 17px;
+        text-decoration: none;
+    }
+    
+    .search{
+        margin: 43px 70px 0px 0px;
+    }
+
+    .text h2{
+        font-size: 70px;
+        font-family: 'Lato', sans-serif;
+        color: white;
+        text-align: left;
+        padding: 100px 0px 0px 50px;
+    }
+    
+    .text p{
+        font-size: 25px;
+        color: white;
+        padding: 0px 0px 0px 50px;
+    }
+    
+    .btn{
+        margin: 45px 0px 0px 50px;
+        width: 200px;
+        height: 60px;
+        background-color: #e8631c;
+        border: none;
+        color: white;
+        font-size: 20px;
+    }
+
+    .container-2{
+        width: 100%;
+        height: 590px;
+        background-color: #e8631c;
+    }
+    
+    .container-2 h2{
+        font-size: 50px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .container-2 p{
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .card{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .box1{
+        width: 200px;
+        height: 347px;
+        background-color: #303030;
+    }
+
+    .box1 img{
+        width: 200xpx;
+        height: 50%;
+    }
+    
+    .box1 h2{
+        font-size: 25px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+    }
+    
+    .box1 p{
+        font-size: 17px;
+        color: white;
+        text-align: center;
+    }
+    
+    .box2{
+        width: 200px;
+        height: 347px;
+        background-color: #303030;
+    }
+
+    .box2 img{
+        width: 200xpx;
+        height: 50%;
+    }
+    
+    .box2 h2{
+        font-size: 25px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+    }
+    
+    .box2 p{
+        font-size: 17px;
+        color: white;
+        text-align: center;
+    }
+    
+    .box3{
+        width: 200px;
+        height: 347px;
+        background-color: #303030;
+    }
+
+    .box3 img{
+        width: 200xpx;
+        height: 50%;
+    }
+    
+    .box3 h2{
+        font-size: 25px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+    }
+    
+    .box3 p{
+        font-size: 17px;
+        color: white;
+        text-align: center;
+    }
+
+    .container-3{
+        width: 100%;
+        height: 642px;
+        background-color: #303030;
+    }
+    
+    .container-3 h2{
+        font-size: 50px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .container-3 p{
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .card2{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .box4{
+        width: 250px;
+        height: 430px;
+        background-color: #e8631c;
+        border-radius: 10px;
+    }
+    
+    .box4 h2{
+        font-size: 40px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .box4 p{
+        font-size: 17px;
+        color: white;
+        text-align: center;
+    }
+    
+    .click{
+        width: 180px;
+        height: 50px;
+        background-color: #303030;
+        color: white;
+        border: none;
+        margin: 40px 0px 0px 34px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .box4 img{
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+    
+    .box5{
+        width: 250px;
+        height: 430px;
+        background-color: #e8631c;
+        border-radius: 10px;
+    }
+    
+    .box5 h2{
+        font-size: 40px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .box5 p{
+        font-size: 17px;
+        color: white;
+        text-align: center;
+    }
+    
+    .box5 img{
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+    
+    .box6{
+        width: 250px;
+        height: 430px;
+        background-color: #e8631c;
+        border-radius: 10px;
+    }
+    
+    .box6 h2{
+        font-size: 40px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .box6 p{
+        font-size: 17px;
+        color: white;
+        text-align: center;
+    }
+    
+    .box6 img{
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    .container-4{
+        width: 100%;
+        height: 561px;
+        background-color: #e8631c;
+    }
+    
+    .parent{
+        display: flex;
+    }
+    
+    .left{
+        width: 369px;
+        height: 510px;
+        background-image: url('../images/man-stand.png');
+        background-size: cover;
+    }
+    
+    .right{
+        width: 40%;
+        height: 953px;
+    }
+    
+    .right h2{
+        font-size: 30px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 85px;
+    }
+    
+    .right p{
+        font-size: 20px;
+        color: white;
+        text-align: left;
+        padding-top: 20px;
+        padding-left: 26px;
+    }
+    
+    .sub{
+        width: 170px;
+        height: 60px;
+        background-color: #303030;
+        color: white;
+        font-size: 20px;
+        border: none;
+        margin: 30px 0px 0px 25px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+    }
+
+    .container-5{
+        width: 100%;
+        height: 459px;
+        background-color: #e8631c;
+    }
+    
+    .father{
+        display: flex;
+    }
+    
+    .left1{
+        width: 60%;
+        height: 953px;
+    }
+    
+    .left1 h2{
+        font-size: 30px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 60px;
+    }
+    
+    .left1 p{
+        font-size: 20px;
+        color: white;
+        text-align: left;
+        padding-top: 20px;
+        padding-left: 74px;
+    }
+    
+    .sub1{
+        width: 170px;
+        height: 60px;
+        background-color: #303030;
+        border: none;
+        color: white;
+        margin: 30px 0px 0px 76px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .right1{
+        position: relative;
+        top: -51px;
+        left: 0px;
+    }
+
+    .right1 img{
+        width: 400px;
+        height: 510px;
+    }
+
+    .container-6{
+        width: 100%;
+        height: 390px;
+        background-color: #303030;
+    }
+    
+    .para{
+        text-align: center;
+        padding-top: 60px;
+    }
+    
+    .para h2{
+        font-size: 30px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+    }
+    
+    .para p{
+        font-size: 20px;
+        color: white;
+        padding-top: 30px;
+    }
+    
+    .flex{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 60px;
+    }
+    
+    .club{
+        color: white;
+    }
+    
+    .club h1{
+        font-size: 30px;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .club p{
+        font-size: 25px;
+    }
+    
+    .active{
+        color: white;
+    }
+    
+    .active h1{
+        font-size: 30px;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .active p{
+        font-size: 25px;
+    }
+    
+    .comunity{
+        color: white;
+    }
+    
+    .comunity h1{
+        font-size: 30px;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .comunity p{
+        font-size: 25px;
+    }
+
+    .container-7{
+        width: 100%;
+        height: 518px;
+    }
+
+    .bg p{
+        font-size: 28px;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 255px;
+    }
+    
+    .bg h1{
+        font-size: 50px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 285px;
+    }
+
+    #fname{
+        width: 50%;
+        height: 50px;
+        margin: 50px 0px 0px 200px;
+        border: 1px solid #ccc;
+        font-size: 20px;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .button-subscribe{
+        width: 150px;
+        height: 50px;
+        background-color:#303030;
+        color: white;
+        padding: 25px;
+        border: none;
+        position: absolute;
+        right: 184px;
+        top: 234px;
+        font-weight: bold;
+    }
+
+}
+
+@media screen and (max-width:576px){
+
+
+    .header{
+        width: 100%;
+        height: 100px;
+        background-color: #303030;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .container-1{
+        width: 100%;
+        height: 424px;
+    }
+
+    .logo{
+        margin: 8px 0px 0px 30px;
+    }
+    
+    .nav{
+        width: 100%;
+        height: 150px;
+    }
+    
+    .nav ul{
+        margin-top: 50px;
+        padding: 0;
+        float: right;
+        margin-right: 10px;
+    }
+    
+    .nav ul li{
+        display: inline-block;
+    }
+    
+    .nav ul li a{
+        font-size: 10px;
+        font-family: 'Lato', sans-serif;
+        color: white;
+        padding-left: 6px;
+        text-decoration: none;
+    }
+    
+    .search{
+        margin: 43px 13px 0px 0px;
+    }
+
+    .text h2{
+        font-size: 40px;
+        font-family: 'Lato', sans-serif;
+        color: white;
+        text-align: left;
+        padding: 40px 0px 0px 50px;
+    }
+    
+    .text p{
+        font-size: 15px;
+        color: white;
+        padding: 0px 0px 0px 50px;
+    }
+    
+    .btn{
+        margin: 40px 0px 0px 50px;
+        width: 150px;
+        height: 50px;
+        background-color: #e8631c;
+        border: none;
+        color: white;
+        font-size: 15px;
+    }
+
+    .container-2{
+        width: 100%;
+        height: 1300px;
+        background-color: #e8631c;
+    }
+
+    .card{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box2{
+        margin-top: 20px;
+    }
+    
+    .box3{
+        margin-top: 20px;
+    }
+
+    .box4{
+        margin-top: 20px;
+    }
+
+    .container-3{
+        width: 100%;
+        height: 1530px;
+        background-color: #303030;
+    }
+    
+    .container-3 h2{
+        font-size: 40px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .container-3 p{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .card2{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box4{
+        margin: 10px;
+    }
+
+    .box5{
+        margin: 10px;
+    }
+
+    .box6{
+        margin: 10px;
+    }
+
+    .container-4{
+        width: 100%;
+        height: 561px;
+        background-color: #e8631c;
+    }
+    
+    .parent{
+        display: flex;
+    }
+    
+    .left{
+        width: 246px;
+        height: 360px;
+        background-image: url('../images/man-stand.png');
+        background-size: cover;
+    }
+
+    .right h2{
+        font-size: 25px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 85px;
+    }
+    
+    .right p{
+        font-size: 17px;
+        color: white;
+        text-align: left;
+        padding-top: 20px;
+        padding-left: 26px;
+    }
+    
+    .sub{
+        width: 140px;
+        height: 50px;
+        background-color: #303030;
+        color: white;
+        font-size: 17px;
+        border: none;
+        margin: 30px 0px 0px 25px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+    }
+
+    .container-5{
+        width: 100%;
+        height: 230px;
+        background-color: #e8631c;
+    }
+
+    .right1{
+        position: relative;
+        top: -200px;
+        left: 0px;
+    }
+
+    .right1 img{
+        width: 330px;
+        height: 430px;
+    }
+
+    .left1{
+        width: 60%;
+        height: 953px;
+    }
+    
+    .left1 h2{
+        font-size: 25px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 0px;
+    }
+    
+    .left1 p{
+        font-size: 15px;
+        color: white;
+        text-align: left;
+        padding-top: 20px;
+        padding-left: 42px;
+    }
+    
+    .sub1{
+        width: 140px;
+        height: 50px;
+        background-color: #303030;
+        border: none;
+        color: white;
+        margin: 30px 0px 0px 37px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    .container-6{
+        width: 100%;
+        height: 270px;
+        background-color: #303030;
+    }
+    
+    .para{
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .para h2{
+        font-size: 25px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+    }
+    
+    .para p{
+        font-size: 15px;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .container-7{
+        width: 100%;
+        height: 390px;
+    }
+
+    .bg p{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 168px;
+    }
+    
+    .bg h1{
+        font-size: 40px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 200px;
+    }
+
+    .container-8{
+        width: 100%;
+        height: 265px;
+        background-color: #e8631c;
+        position: relative;
+    }
+    
+    .write{
+        color: white;
+    }
+    
+    .write h1{
+        font-size: 30px;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        padding-top: 22px;
+    }
+    
+    .write p{
+        font-size: 20px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .button-subscribe{
+        width: 150px;
+        height: 50px;
+        background-color:#303030;
+        color: white;
+        padding: 25px;
+        border: none;
+        position: absolute;
+        right: 88px;
+        top: 171px;
+        font-weight: bold;
+    }
+    
+    .footer{
+        width: 100%;
+        height: 350px;
+        background-color: #303030;
+    }
+
+    table {
+        font-family: arial, sans-serif;
+        width: 100%;
+        position: relative;
+        top: 20px;
+    }
+
+    td{
+        font-size: 12px;
+    }
+
+    td img{
+        margin-top: 30px;
+        width: 180px;
+        height: 50px;
+    }
+
+    input[type="email"]::placeholder {
+                 
+        /* Firefox, Chrome, Opera */
+        text-align: left;
+        padding-left: 15px;
+        font-size: 15px;
+    }
+ 
+}
+
+@media screen and (max-width:480px){
+
+
+    .container-1{
+        width: 100%;
+        height: 357px;
+    }
+
+    .line{
+        width: 100%;
+        height: 30px;
+        background-color: #e8631c;
+    }
+
+    .btn{
+        margin: 30px 0px 0px 50px;
+        width: 100px;
+        height: 40px;
+        background-color: #e8631c;
+        border: none;
+        color: white;
+        font-size: 10px;
+    }
+
+    .container-2 h2{
+        font-size: 40px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .container-2 p{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .box1 h2{
+        font-size: 30px;
+    }
+
+    .box1 p{
+        font-size: 15px;
+    }
+
+    .box2 h2{
+        font-size: 30px;
+    }
+
+    .box2 p{
+        font-size: 15px;
+    }
+
+    .box3 h2{
+        font-size: 30px;
+    }
+
+    .box3 p{
+        font-size: 15px;
+    }
+
+    .container-4{
+        width: 100%;
+        height: 346px;
+        background-color: #e8631c;
+    }
+
+    .left{
+        width: 260px;
+        height: 360px;
+        background-image: url('../images/man-stand.png');
+        background-size: cover;
+    }
+
+    .right h2{
+        font-size: 20px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 70px;
+    }
+    
+    .right p{
+        font-size: 14px;
+        color: white;
+        text-align: left;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    
+    .sub{
+        width: 100px;
+        height: 40px;
+        background-color: #303030;
+        color: white;
+        font-size: 14px;
+        border: none;
+        margin: 20px 0px 0px 8px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+    }
+
+    .container-5{
+        width: 100%;
+        height: 359px;
+        background-color: #e8631c;
+    }
+
+    .right1{
+        position: relative;
+        top: 13px;
+        left: 0px;
+    }
+
+    .right1 img{
+        width: 220px;
+        height: 346px;
+    }
+
+    .left1{
+        width: 60%;
+        height: 963px;
+    }
+    
+    .left1 h2{
+        font-size: 20px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 70px;
+    }
+    
+    .left1 p{
+        font-size: 14px;
+        color: white;
+        text-align: left;
+        padding-top: 20px;
+        padding-left: 64px;
+    }
+    
+    .sub1{
+        width: 100px;
+        height: 40px;
+        background-color: #303030;
+        border: none;
+        color: white;
+        margin: 20px 0px 0px 62px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .container-6{
+        width: 100%;
+        height: 270px;
+        background-color: #303030;
+    }
+
+    .flex{
+        padding-top: 35px;
+    }
+
+    .club h1{
+        font-size: 25px;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .club p{
+        font-size: 20px;
+    }
+    
+    .active h1{
+        font-size: 25px;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .active p{
+        font-size: 20px;
+    }
+    
+    .comunity h1{
+        font-size: 25px;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .comunity p{
+        font-size: 20px;
+    }
+
+    .container-7{
+        width: 100%;
+        height: 325px;
+    }
+
+    .bg p{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 134px;
+    }
+    
+    .bg h1{
+        font-size: 40px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 148px;
+    }
+
+    .container-8{
+        width: 100%;
+        height: 220px;
+        background-color: #e8631c;
+        position: relative;
+    }
+    
+    .write{
+        color: white;
+    }
+    
+    .write h1{
+        font-size: 25px;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        padding-top: 22px;
+    }
+    
+    .write p{
+        font-size: 17px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #fname{
+        width: 40%;
+        height: 50px;
+        margin: 27px 0px 0px 100px;
+        border: 1px solid #ccc;
+        font-size: 18px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .button-subscribe{
+        width: 130px;
+        height: 30px;
+        background-color:#303030;
+        color: white;
+        padding: 25px;
+        border: none;
+        position: absolute;
+        right: 88px;
+        top: 138px;
+        font-weight: bold;
+    }
+
+    .footer{
+        width: 100%;
+        height: 366px;
+        background-color: #303030;
+    }
+
+    table {
+        font-family: arial, sans-serif;
+        width: 100%;
+        position: relative;
+        top: 20px;
+    }
+
+    th{
+        font-size: 14px;
+    }
+
+    td img{
+        margin-top: 30px;
+        width: 150px;
+        height: 40px;
+    }
+
+    input[type="email"]::placeholder {
+                 
+        /* Firefox, Chrome, Opera */
+        text-align: left;
+        padding-left: 15px;
+        font-size: 12px;
+    }
+
+}
