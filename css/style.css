@@ -2081,6 +2081,7 @@ input[type="email"]::placeholder {
     
     .write{
         color: white;
+        display: block;
     }
     
     .write h1{
